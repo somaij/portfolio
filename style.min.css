@@ -1,0 +1,46 @@
+*{-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;text-rendering:optimizeLegibility}
+*:after,*:before{-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;text-rendering:optimizeLegibility}
+.clear{*zoom:1}
+.clear:before{content:' ';display:table}
+.clear:after{content:' ';display:table;clear:both}
+img{max-width:100%;vertical-align:bottom}
+.alignnone{margin:5px 20px 20px 0}
+.aligncenter,div.aligncenter{display:block;margin:5px auto 5px auto}
+.alignright{float:right;margin:5px 0 20px 20px}
+.alignleft{float:left;margin:5px 20px 20px 0}
+a img.alignright{float:right;margin:5px 0 20px 20px}
+a img.alignnone{margin:5px 20px 20px 0}
+a img.alignleft{float:left;margin:5px 20px 20px 0}
+a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
+.wp-caption{background:#FFF;border:1px solid #f0f0f0;max-width:96%;padding:5px 3px 10px;text-align:center}
+.wp-caption.alignnone,.wp-caption.alignleft{margin:5px 20px 20px 0}
+.wp-caption.alignright{margin:5px 0 20px 20px}
+.wp-caption img{border:0 none;height:auto;margin:0;max-width:98.5%;padding:0;width:auto}
+.wp-caption .wp-caption-text{font-size:11px;line-height:17px;margin:0;padding:0 4px 5px}
+.gallery-caption{font-size:11px;line-height:17px;margin:0;padding:0 4px 5px}
+.wrapper{max-width:1280px;width:95%;margin:0 auto;position:relative}
+html{font-size:1rem}
+body{color:#444}
+::-moz-selection{background:#04a4cc;color:#FFF;text-shadow:none}
+::selection{background:#04a4cc;color:#FFF;text-shadow:none}
+::-webkit-selection{background:#04a4cc;color:#FFF;text-shadow:none}
+::-moz-selection{background:#04a4cc;color:#FFF;text-shadow:none}
+a{color:#444;text-decoration:none}
+a:hover{color:#444}
+a:focus{outline:0}
+a:hover,a:active{outline:0}
+input:focus{outline:0;border:1px solid #04a4cc}
+@media print{*{background:transparent !important;color:#000 !important;-webkit-box-shadow:none !important;box-shadow:none !important;text-shadow:none !important}
+a{text-decoration:underline}
+a:visited{text-decoration:underline}
+a[href]:after{content:" (" attr(href) ")"}
+abbr[title]:after{content:" (" attr(title) ")"}
+.ir a:after{content:""}
+a[href^="javascript:"]:after,a[href^="#"]:after{content:""}
+pre,blockquote{border:1px solid #999;page-break-inside:avoid}
+thead{display:table-header-group}
+tr{page-break-inside:avoid}
+img{page-break-inside:avoid;max-width:100% !important}
+p,h2,h3{orphans:3;widows:3}
+h2,h3{page-break-after:avoid}
+}
